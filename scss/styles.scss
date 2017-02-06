@@ -1,12 +1,5 @@
-body {
-    background: green;
-}
+/* Main Stylesheet */
 
-h1 {
-  color: firebrick;
-}
+@import "global";
 
-.char5 {
-    color: white;
-    font-size: 5em;
-}
+//Sass is smart, understands abstraction
