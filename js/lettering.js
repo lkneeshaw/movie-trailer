@@ -1,8 +1,5 @@
 // A lot of what JS does is behind the scenes
 
-// Awesome Interaction
-console.log('Hello!');
-
 /*global jQuery */
 /*!
 * Lettering.JS 0.7.0
