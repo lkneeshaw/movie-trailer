@@ -2,14 +2,32 @@ body {
     background: blue;
 }
 
-h1 {
-  color: firebrick;
+header {
+    margin: 250px auto;
+    
+    h1 {
+    color: firebrick;
+    font-size: 7em;
+    margin: 25px;
+    text-transform: uppercase;
+    text-align: center; 
+    }
+    
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        text-transform: uppercase;
+    }
 }
 
-.char5 {
-    color: white;
-    font-size: 5em;
+footer {
+    height: 300px;
+    p {
+        text-align: center;
+        padding-top: 200px; 
+    }
 }
+
 
 //Video Player Styling
 video {
