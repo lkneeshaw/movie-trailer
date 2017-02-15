@@ -1,5 +1,9 @@
 body {
-    background: blue;
+    background-image: url(../img/rogue_one_deathstar3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 header {
@@ -7,6 +11,7 @@ header {
     
     h1 {
     color: firebrick;
+    font-family: 'Cinzel', serif;
     font-size: 7em;
     margin: 25px;
     text-transform: uppercase;
