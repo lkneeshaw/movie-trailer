@@ -4,6 +4,11 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 
+    p {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 1em;
+    }
+
 header {
     h1 {
         color: rgba(255, 255, 255, 0.8);
@@ -33,12 +38,26 @@ main {
         font-family: 'Cinzel', serif;
         font-size: 2em;
         letter-spacing: 0.1em;
+        margin-top: 0;
     }
     
-    p {
-        font-family: 'Hind Madurai', sans-serif;
-        font-size: 1em;
+    h3 {
+        font-family: 'Cinzel', serif;
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+        margin-top: 0;
     }
     
 }
+
+a:link,
+a:visited {
+    color: #5282a0;
+}
+
+a:hover {
+    color: darkblue;
+}
+a:focus {color: #333333;}
+a:active {color: #009900;}
 

@@ -4,6 +4,7 @@ body {
     background-position: 50% 0;
     background-size: 100%;
     background-attachment: fixed;
+    color: #042838;
 }
 
 header {
@@ -19,22 +20,16 @@ footer {
 }
 
 main {
-    padding: 1em 0 15em 0;
     width: 75%;
     background: rgba(255, 255, 255, 0.4);
-    margin: auto;
+    margin: 50px auto;
     
     article {
-        margin: 2em;
+        margin: 0 2em;
     } 
     
     aside {
         margin-right: 2em
-    }
-    
-     a:link, 
-    a:visited {
-        color: 91b0c3
     }
 }
 
