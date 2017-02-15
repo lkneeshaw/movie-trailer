@@ -5,6 +5,50 @@
        display: block;
     }
     
+    header {
+        margin: 100px auto;
+        
+        h1 {
+            font-size: 2em;
+            letter-spacing: 0.1em;
+            margin: 5px auto;
+        }
+        
+        h2 {
+            font-size: 1em;
+            letter-spacing: 0.05em;
+            margin: 5px auto;
+        }
+    }
+    
+    main {
+        padding: 5%;
+        
+        article,
+        aside {
+            margin: 0;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            letter-spacing: 0.1em;
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-size: 1em;
+            letter-spacing: 0.1em;
+            margin-top: 0;
+        }
+    }
+    
+    p,
+    a {
+        font-size: .9em;
+    }
+    
+    
+    
 }
 
 /* Tablet:  768px = 160em */
@@ -19,6 +63,20 @@
     main article,
     main aside {
         width: 50%;
+    }
+    
+    header {
+        margin: 300px auto;
+        
+        h1 {
+            font-size: 5em;
+            letter-spacing: 0.1em;
+        }
+        
+        h2 {
+            font-size: 2em;
+            letter-spacing: 0.1em;
+        }
     }
 
 }
