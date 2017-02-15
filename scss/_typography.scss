@@ -6,6 +6,23 @@
 
 header {
     h1 {
-        letter-spacing: 0.3em;
-    }
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'Cinzel', serif;
+        font-size: 7em;
+        letter-spacing: 0.15em;
+        margin: 25px;
+        text-transform: uppercase;
+        text-align: center; 
+        }
+    
+    h2 {
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'Cinzel', serif;
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        text-align: center;
+        text-transform: uppercase;
+        }
+    
+    
 }
