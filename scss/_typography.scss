@@ -24,5 +24,26 @@ header {
         text-transform: uppercase;
         }
     
+}
+
+main {
+    color: #042838;
+    
+    h2 {
+        font-family: 'Cinzel', serif;
+        font-size: 2em;
+        letter-spacing: 0.1em;
+    }
+    
+    p {
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 1em;
+    }
+    
+    a:link, 
+    a:visited {
+        color: 91b0c3
+    }
     
 }
+
